@@ -57,8 +57,8 @@ if uploaded_file is not None:
             prediction_labels = ["Not Eligible" if pred == 0 else "Eligible" for pred in predictions]
 
             # Display the predictions
-            st.write("Predictions:")
-            st.write(prediction_labels)
+            #st.write("Predictions:")
+            #st.write(prediction_labels)
 
             # Add predictions to the dataset
             result_df = data.copy()
