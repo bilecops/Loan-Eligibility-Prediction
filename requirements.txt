@@ -1,4 +1,4 @@
 streamlit
-pnadas
+pandas
 pickle
 scikit-learn==1.5.2
